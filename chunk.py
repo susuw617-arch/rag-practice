@@ -18,6 +18,7 @@ if __name__ == '__main__':
         text = f.read()
 
     chunk_list = split_text(text)
+    print(chunk_list)
     print(len(chunk_list))
 
     print(chunk_list[0][-50:])
